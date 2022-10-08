@@ -1,0 +1,19 @@
+{
+  "name": "@ignite-ui/design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yan Lyra <yanlyra3@gmail.com>",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
