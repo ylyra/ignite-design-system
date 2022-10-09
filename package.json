@@ -9,11 +9,16 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "cz-conventional-changelog": "3.3.0"
+    "cz-conventional-changelog": "3.3.0",
+    "turbo": "^1.5.5"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   }
 }

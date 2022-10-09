@@ -1,3 +1,6 @@
-import { colors } from '@ignite-ui/tokens'
+export * from "./components/Avatar";
+export * from "./components/Box";
+export * from "./components/Button";
+export * from "./components/Heading";
+export * from "./components/Text";
 
-console.log(colors)
