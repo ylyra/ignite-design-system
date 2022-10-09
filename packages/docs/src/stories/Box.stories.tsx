@@ -1,5 +1,5 @@
-import { Box, BoxProps, Text } from "@ignite-ui/react"
-import type { Meta, StoryObj } from "@storybook/react"
+import { Box, BoxProps, Text } from "@ignite-ui/react";
+import type { Meta, StoryObj } from "@storybook/react";
 
 export default {
   title: "Surfaces/Box",
@@ -9,8 +9,15 @@ export default {
       <>
         <Text>Testando o elemento Box</Text>
       </>
-    )
-  }
-} as Meta
+    ),
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
+} as Meta<BoxProps>;
 
-export const Primary: StoryObj<BoxProps> = {}
+export const Primary: StoryObj<BoxProps> = {};
