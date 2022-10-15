@@ -33,4 +33,4 @@ export const {
     radii,
     space,
   },
-})
+} as const)
