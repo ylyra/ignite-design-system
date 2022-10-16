@@ -24,9 +24,9 @@ export default {
       },
     },
     delayDuration: {
-      min: 0,
       defaultValue: 700,
       control: {
+        min: 0,
         type: "number",
       },
     },
